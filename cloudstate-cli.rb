@@ -1,4 +1,3 @@
-
 class CloudstateCli < Formula
   desc "Cloudstate CLI"
   homepage "https://cloudstate.io/"
@@ -10,4 +9,3 @@ class CloudstateCli < Formula
   end
 end
 
-  
