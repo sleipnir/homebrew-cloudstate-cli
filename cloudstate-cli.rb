@@ -12,4 +12,3 @@ class CloudstateCli < Formula
     system "false"
   end
 end
-
