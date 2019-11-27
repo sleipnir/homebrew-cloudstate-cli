@@ -5,7 +5,11 @@ class CloudstateCli < Formula
   sha256 "c46f8abc9383bd43405cf1ccb3f7956bd0098748e344b40e5caeaeeff8d9a9ab"
 
   def install
-    cp "target/release/cloudstate" bin/"cloudstate"
+    bin.install cloudstate
+  end
+
+  test do
+    system "false"
   end
 end
 
