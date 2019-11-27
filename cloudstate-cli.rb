@@ -8,7 +8,6 @@ class CloudstateCli < Formula
 
   def install
     bin.install "release/cloudstate"
-    bin.install_symlink "/usr/local/bin/cloudstate"
   end
 
   test do
